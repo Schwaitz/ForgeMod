@@ -1,0 +1,30 @@
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/Schwaitz/ForgeTestMod/issues"
+
+[[mods]]
+modId="kuuycraft"
+version="${file.jarVersion}"
+displayName="KuuyCraft"
+updateJSONURL="https://raw.githubusercontent.com/Schwaitz/ForgeTestMod/master/update.json" 
+displayURL="http://justwas.com/"
+logoFile="logo.png"
+credits="Made by me, and me alone"
+authors="kuuy"
+description="This is a description of a test mod that I am making"
+
+
+[[dependencies.kuuycraft]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.kuuycraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
